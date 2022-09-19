@@ -3,7 +3,7 @@ package com.bridgelabz;
 public class EmpPayroll {
     private int id;
     private String name;
-    private double salary;
+    private String address;
 
     /**
      * Constructors
@@ -11,10 +11,10 @@ public class EmpPayroll {
      * @param name
      * @param salary
      */
-    public EmpPayroll(int id, String name, double salary){
+    public EmpPayroll(int id, String name, String address){
         this.id = id;
         this.name = name;
-        this.salary = salary;
+        this.address = address;
     }
     // toString methods
     @Override
@@ -22,7 +22,7 @@ public class EmpPayroll {
         return "EmployeePayroll{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", salary=" + salary +
+                ", salary=" + address +
                 '}';
     }
 }
