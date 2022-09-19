@@ -9,7 +9,7 @@ public class EmpPayroll {
      * Constructors
      * @param id
      * @param name
-     * @param salary
+     * @param address
      */
     public EmpPayroll(int id, String name, String address){
         this.id = id;
